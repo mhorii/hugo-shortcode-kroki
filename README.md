@@ -1,7 +1,5 @@
 A tiny script, called shortcode in Hugo, to create diagrams from textual descriptions with [Kroki](https://kroki.io/)
 
-
-
 # Installation
 Just put `kroki.html` in `layouts/shortcodes`.
 See [here](https://gohugo.io/templates/shortcode-templates/#file-location) if you are not familier with that.
@@ -21,5 +19,6 @@ It actually corresponds to `diagram_type` of [Kroki](https://kroki.io/). See the
 
 Inner text, `hoge -> piyo: fuga` in the previous example, is a diagram described with a text.
 
-
+# Tips
+Kroki provides a way to self-host the Kroki service. If you prefer self-hosting Korki, maybe due to security reason, you can easily change the host `kroki.io` to other hosts. See the source code.
 
