@@ -6,7 +6,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript">
 
-  var host = "localhost:8081";
+  <!-- var host = "localhost:8081"; -->
+  var host = "kroki.io";
   var data = textEncode("{{ .Inner }}");
   var compressed = pako.deflate(data, {level:9, to:'string'});
   var result = btoa(compressed).replace(/\+/g, '-').replace(/\//g, '_');
