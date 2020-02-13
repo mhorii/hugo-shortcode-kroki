@@ -5,7 +5,7 @@ Just put `kroki.html` in `layouts/shortcodes`.
 See [here](https://gohugo.io/templates/shortcode-templates/#file-location) if you are not familier with that.
 
 # Parameters
-The shortcode takes two parameters, `type` and `name`, and one inner text.
+A shortcode takes two parameters, `type` and `name`, and one inner text.
 Here's an example:
 ```
 {{<kroki type="plantuml" name="test">}}
